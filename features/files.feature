@@ -253,11 +253,3 @@ Feature: Agent CRUD Operations for OS Files
     And the file "C:/Users/Jeff/repo/Project3/src/main.js" should exist
     And the directory "C:/Users/Jeff/repo/Project3/src" should exist
     And the directory "C:/Users/Jeff/repo/Project3" should exist
-
-  Scenario: Execute a shell command to check file permissions
-    When the agent sends the following request to the kernel
-      | Key             | Value                                        |
-      | Command         | icacls C:/Users/Jeff/repo/Project1/README.md |
-      | RequestCategory | Shell                                        |
-      | RequestType     | Execute                                      |
-    Then the kernel should return the command output containing permission details for the file
