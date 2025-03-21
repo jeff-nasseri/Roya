@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		RoyaAi.sln = RoyaAi.sln
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyaAi.Layers.Presentation", "layers\Presentation\RoyaAi.Layers.Presentation.csproj", "{783D7880-6879-4B15-BE45-E9CDB96D5B0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{37A0C3F1-4527-4354-9716-259388D9E488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37A0C3F1-4527-4354-9716-259388D9E488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37A0C3F1-4527-4354-9716-259388D9E488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783D7880-6879-4B15-BE45-E9CDB96D5B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783D7880-6879-4B15-BE45-E9CDB96D5B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783D7880-6879-4B15-BE45-E9CDB96D5B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783D7880-6879-4B15-BE45-E9CDB96D5B0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{9D1DD2CD-7B04-4472-4377-027563F356CA} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 		{66A2F2BC-B63C-45FF-82D4-1CEFACBFB34B} = {69E807D5-5508-46C8-B3BC-EB51C5E54C25}
 		{37A0C3F1-4527-4354-9716-259388D9E488} = {69E807D5-5508-46C8-B3BC-EB51C5E54C25}
+		{783D7880-6879-4B15-BE45-E9CDB96D5B0E} = {69E807D5-5508-46C8-B3BC-EB51C5E54C25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A631C57-377F-4FDB-8B1E-C1C6769F5D1A}
